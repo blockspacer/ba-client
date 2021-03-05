@@ -1,0 +1,2 @@
+fx --service --packages -v=%BUILD% -a %ACK% -f %ROOT_SERVER% --root %PKG_ROOT% --fetch %PKG_FETCH% --run %PKG_ROOT%../com.mfd.packages.cfg.fx --full
+fx --service --packages --with-config=%PKG_CFG_OUT% --build=FULL --build=ALL_CPUS
