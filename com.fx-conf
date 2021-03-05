@@ -1,0 +1,18 @@
+{
+  "version": 1.1,
+  "projectName": "MFD-Client",
+  "consumerName": "L22 Studio",
+  "packages": [
+    "com.mfd",
+    "com.sys",
+    "com.sys.io",
+    "com.sys.engine",
+    "com.notable",
+    "com.notable.io",
+    "com.notable.engine",
+    "com.sys.net",
+    "com.sys.net.http",
+    "com.consider",
+    "com.rendering.g3d"
+  ]
+}
