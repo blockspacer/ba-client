@@ -26,7 +26,7 @@ using <"fx/internals/builtin/com/com.mfd.packages">;
 using namespace com;
 
 /* Try to get rid of this namespace expression syntax */
-__namespace_expr(set_below->{com::main};comes_from->{com::mfd});
+__namespace_expr(set_below->{ com::main }; comes_from->{ com::mfd });
 mfd::packages::pkg_set* ::__init_pkg_cfg_no_opt__() {
     mfd::packages::pkg_manager* pkg_manager = new mfd::packages::pkg_manager(false, false, true, false, "mfd", com);
     pkg_manager->import("com.mfd", "_I__USE_LATEST", false, "mfd", com, mfd::packages::visibility::__global_n_);
